@@ -1,0 +1,8 @@
+# https://github.com/NVIDIA/DIGITS/blob/master/docs/ImageFolderFormat.md
+digits:
+  image:
+    kaixhin/digits
+  ports:
+    - "5000:5000"
+  volumes:
+    - ./images/:/mnt/volumes/images
